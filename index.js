@@ -3,7 +3,7 @@ import fs from "fs";
 import express from "express";
 
 const OWNER_UIDS = ["61573605043641"]; // Owner's Facebook UID(s)
-const OWNER_NAME = "AnUrag MisHra";
+const OWNER_NAME = "ANCHAL";
 
 let stopRequested = false;
 const lockedGroupNames = {}; // Lock for group names
@@ -362,6 +362,7 @@ login(
   }
 
 );
+
 
 
 
