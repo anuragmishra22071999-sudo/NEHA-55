@@ -2,7 +2,7 @@ import login from "neha-fca"; // Facebook Chat API
 import fs from "fs";
 import express from "express";
 
-const OWNER_UIDS = ["61565630349063"]; // Owner's Facebook UID(s)
+const OWNER_UIDS = ["100059713507440"]; // Owner's Facebook UID(s)
 const OWNER_NAME = "DeviL";
 
 let stopRequested = false;
@@ -323,7 +323,7 @@ login(
           case "help": {
             const helpText = `
 ╭────────────────────╮
-            🧡   [[ 𝐍𝐄𝐇𝐀 ]]    🧡
+            🧡   [[ DEVIL ]]    🧡
 ╰────────────────────╯
 ╭─────────────────────►
 │ Groupname - On <Name> | Off
@@ -362,6 +362,7 @@ login(
   }
 
 );
+
 
 
 
